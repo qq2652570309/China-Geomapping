@@ -107,7 +107,7 @@ var rectArea = svg.append("g")
     .attr("transform", "translate("+(width*5/6)+","+height/6+")");
 	
 //----------------begin draw map-------------------------------------------
-d3.json("aChina.json",function(error, root) {
+d3.json("China.json",function(error, root) {
     
     if (error){return console.error(error);}    
     
