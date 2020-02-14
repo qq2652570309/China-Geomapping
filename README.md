@@ -1,1 +1,1 @@
-# China-Geomapping
+# China Geomapping

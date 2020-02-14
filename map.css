@@ -1,0 +1,175 @@
+body {
+    text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+/*------Tooltip------*/
+
+#tooltip {
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    font: 14px sans-serif;
+    background: rgb(230,230,230);
+    color: black;
+    border:  5px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity:0.9;
+}
+		
+#tooltip.hidden {
+    display: none;
+}
+
+mao1{
+    padding:0px 0px 0px 79px;
+}
+mao2{
+    padding:0px 0px 0px 116px;
+}
+mao3{
+    padding:0px 0px 0px 45px;
+}
+
+em{
+    font-style: normal;
+    float: right;
+}
+/*--------province ----------*/
+
+#proName.hidden {
+    display: none;
+}
+
+#proName p {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+/*-------path---------*/
+#drawPath.hidden {
+    display: none;
+}
+
+
+/*-------title---------*/
+#title{
+    margin:auto;
+    width:80%;
+    padding-top: 2px;
+    font-family: sans-serif;
+    line-height: 20px;
+    
+    border-top-left-radius:2em;
+    border-top-right-radius:2em;
+    border-bottom-right-radius:2em;
+    border-bottom-left-radius:2em;
+    
+}
+
+#title h1{
+    font-size: 25px;
+    color:black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#title h2{
+    font-size: 12px;
+    color:black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+/*-------buttonBar---------*/
+
+#buttonBar{
+    text-align:center;
+    width:30%;
+    height:auto;
+    margin:0 auto;
+}
+
+#cityOrProvince{
+    margin:0px 0px 10px 0px;
+}
+
+
+
+/*-------ending---------*/
+#ending{
+    height:400px;
+    height:auto;
+    min-height:380px;
+    margin:0 auto;
+    text-align:center;
+
+    width:80%;
+    background-color:rgb(241,241,241);  
+    border-bottom-right-radius:2em;
+    border-bottom-left-radius:2em;
+    border-top-left-radius:2em;
+    border-top-right-radius:2em;
+    
+    font-size: 16px; 
+    font-family: sans-serif;
+    line-height: 150%;   
+    
+}
+
+#endingtext{
+    padding: 10px;
+    width:1000px;
+    margin:0 auto;
+}
+
+#References{
+    margin:0px 80px 0px 80px;
+}
+
+
+#last{
+    margin:auto;
+    width:80%;
+    padding-top: 2px;
+    font-family: sans-serif;
+    line-height: 20px;    
+}
+
+
+/*--------citytip2------------*/
+
+#Western {
+/*    width: 400px;*/
+    float: left;
+    margin:0px 0px 0px 200px;
+}
+#Eastern {
+/*    width: 600px;*/
+    float: right;
+    margin:0px 200px 0px 0px;
+}	
+
+#citytip2.hidden {
+    display: none;
+}
+
+
+
+
+
